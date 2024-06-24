@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: rgb(243, 242, 242);
+    height : 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ffffff78;
+}
+.logo_container{
+    min-width: 80px;
+    display: flex;
+}
+.myntra_logo{
+    height: 46px;
+    width: 50px;
+    margin-left:40%;
+    
+}
+.nav_bar{
+    display:flex;
+    min-width: 500px;
+    justify-content: space-between;
+}
+.nav_bar a{
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 30px 0;
+    border-bottom: 2px solid #ffff ;
+    
+    
+}
+.nav_bar a sup{
+    color: rgb(206, 41, 129);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav_bar a:hover{
+    border-bottom: 2px solid rgb(6, 2, 87) ;
+}
+.search{
+    height: 40px;
+    min-width: 400px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.search_input{
+     color: #aeafb0;
+     background-color: #f5f5f6;
+     flex-grow: 1;
+     height:40px;
+     border: 0;
+     border-radius: 0 4px 4px 0 ;
+}
+
+.search_icon{
+    height:20px;
+    box-sizing: content-box;
+    background-color: #f5f5f6;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+}
+.action_bar{margin-right: 3%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+
+}
+
+.action_attributes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+padding-right: 10px;
+
+}
+/* Main section  */
+.banner{
+    margin: 30px 0;
+}
+.ban{
+
+    width:100%;
+}
+.category_heading{
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin:50px 10px 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.category_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+
+}
+
+.offer{
+    width: 250px;
+
+}
+
+/*Footer  */
+
+.footer_container{
+    padding: 30px 0 40px 0;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_column{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_column a{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+.copy{
+    color: #a4a4a8;
+    text-align:end ;
+}
